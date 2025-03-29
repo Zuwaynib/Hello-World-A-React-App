@@ -7,8 +7,8 @@ import './index.css';
 
 const user = {
   userName: "Zuwaynib",
-  age: 22,
-  complexion: "dark"
+  age: 19,
+  complexion: "light"
 }
 
 function getUser(user) {
