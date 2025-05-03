@@ -18,15 +18,15 @@ function getUser(user) {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 function tick() {
-  const element = (
+  const time = (
     <div id="div-id">
       <p>Hello {getUser(user)}</p>
       <p>Current Time: { new Date().toLocaleTimeString()}</p>
     </div>
   );
 
-  root.render(element);
+  root.render(time);
 }
 
-setInterval(tick, 1000);
+setInterval(tick, 2000);
 
