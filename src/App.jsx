@@ -1,4 +1,5 @@
 import React from 'react';
+import Article from './components/Article.jsx';
 
 const App = () => {
   return (
@@ -6,6 +7,7 @@ const App = () => {
       <nav>
         <img src="./logo.svg" alt="Logo" />
         <h1>Learning React</h1>
+        <Article />
       </nav>
     </header>
   )
